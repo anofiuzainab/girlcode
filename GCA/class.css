@@ -1,0 +1,66 @@
+body{
+  margin: 0
+}
+*{
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 100vh
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: 10vh;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 20px 0px grey;
+  padding:5px
+}
+.logo{
+  width: 20%;
+  padding-left: 5%;
+}
+.menu{
+  width: 50%;
+  padding-left: 15%;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.search{
+  width: 30%;
+  padding-right: 5%
+}
+.search input{
+  width: 70%;
+}
+.search button{
+  width: 30%
+}
+.header-image{
+  height: 40vh;
+  width: 100%
+}
+.image{
+  position: absolute;
+  background-image: url('http://www.tatashey.com/wp-content/uploads/2017/08/Grilled-Fish9-1440x970.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: inherit;
+  height: inherit;
+}
+.image-overlay{
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background-color: black;
+  opacity: 0.6;
+}
+.text{
+  position: absolute;
+  color: white;
+  font-family: sans-serif;
+}

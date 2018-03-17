@@ -1,0 +1,52 @@
+body{
+	background-color: white;
+
+}
+.head{
+	text-align: center;
+	background-color: green;
+	padding: 10px 5px 10px 2px
+	color: white;
+}
+
+.myNewNav{
+	text-align: center; 
+	background-color: white;
+	padding: 21px 10px 21px 54px;
+}
+
+.mylink{
+	color: black;
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+
+}
+.started{
+	background-color: darkgrey;
+	text-decoration: white;
+	padding: 20px 0px 20px 10px;
+}
+
+.small-box1{
+		position: absolute;
+		background-color: green;
+		height: 150px;
+		width: 150px;
+}
+
+.small-box2{
+		position: absolute;
+		background-color: green;
+		height: 150px;
+		width: 150px;
+		top: 36%;
+		left: 38%;
+}
+.small-box3{
+		position: absolute;
+		background-color: green;
+		height: 150px;
+		width: 150px;
+		bottom: 0;
+		right: 0;
+}
